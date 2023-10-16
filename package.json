@@ -1,0 +1,15 @@
+{
+  "name": "bankist-app",
+  "version": "1.0.0",
+  "description": "bank account application",
+  "default": "index.html",
+  "scripts": {
+    "start": "npx parcel index.html --dist-dir ./dist",
+    "build": "npx parcel build index.html --dist-dir ./dist"
+  },
+  "author": "glacien",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
